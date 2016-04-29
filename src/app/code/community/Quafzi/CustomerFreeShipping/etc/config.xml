@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Quafzi_CustomerFreeShipping>
+            <version>1.0.0</version>
+        </Quafzi_CustomerFreeShipping>
+    </modules>
+    <global>
+        <models>
+            <quafzi_customerfreeshipping>
+                <class>Quafzi_CustomerFreeShipping_Model</class>
+            </quafzi_customerfreeshipping>
+        </models>
+        <resources>
+            <quafzi_customerfreeshipping_setup>
+                <setup>
+                    <module>Quafzi_CustomerFreeShipping</module>
+                    <class>Mage_Customer_Model_Entity_Setup</class>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </quafzi_customerfreeshipping_setup>
+            <quafzi_customerfreeshipping_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </quafzi_customerfreeshipping_write>
+            <quafzi_customerfreeshipping_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </quafzi_customerfreeshipping_read>
+        </resources>
+    </global>
+    <default>
+        <carriers>
+            <customer_freeshipping>
+                <active>1</active>
+                <sallowspecific>0</sallowspecific>
+                <model>quafzi_customerfreeshipping/carrier_freeshipping</model>
+                <name>Customer Free Shipping</name>
+                <title>Customer Free Shipping</title>
+                <specificerrmsg>This shipping method is currently unavailable. If you would like to ship using this shipping method, please contact us.</specificerrmsg>
+            </customer_freeshipping>
+        </carriers>
+    </default>
+</config>
