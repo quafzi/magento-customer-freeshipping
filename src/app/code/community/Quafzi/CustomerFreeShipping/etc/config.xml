@@ -33,6 +33,17 @@
             </quafzi_customerfreeshipping_read>
         </resources>
     </global>
+    <adminhtml>
+        <translate>
+            <modules>
+                <Quafzi_CustomerFreeShipping>
+                    <files>
+                        <default>Quafzi_CustomerFreeshipping.csv</default>
+                    </files>
+                </Quafzi_CustomerFreeShipping>
+            </modules>
+        </translate>
+    </adminhtml>
     <default>
         <carriers>
             <customer_freeshipping>

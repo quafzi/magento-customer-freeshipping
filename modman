@@ -1,2 +1,3 @@
 src/app/code/community/Quafzi/CustomerFreeShipping     app/code/community/Quafzi/CustomerFreeShipping
+src/app/locale/de_DE/Quafzi_CustomerFreeshipping.csv   app/locale/de_DE/Quafzi_CustomerFreeshipping.csv
 src/app/etc/modules/*    app/etc/modules/
